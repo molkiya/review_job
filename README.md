@@ -2,6 +2,9 @@
 
 Backend-сервис для интеграции с Skinport API и обработки покупок.
 
+**Author:** Marat Kiiamov  
+**Email:** [kiya.marat@gmail.com](mailto:kiya.marat@gmail.com)
+
 ## Стек
 
 | Технология | Версия | Назначение |
