@@ -1,0 +1,41 @@
+{
+  "name": "review_job",
+  "version": "1.0.0",
+  "description": "Fastify + TypeScript + PostgreSQL + Redis DDD skeleton",
+  "main": "dist/app/server.js",
+  "type": "module",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "dev": "tsx watch src/app/server.ts",
+    "build": "tsc",
+    "start": "node dist/app/server.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "seed": "tsx src/db/seed.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bignumber.js": "^9.3.1",
+    "class-transformer": "0.5.1",
+    "class-validator": "^0.14.1",
+    "dotenv": "^17.2.3",
+    "fastify": "^5.1.0",
+    "pino": "^9.5.0",
+    "postgres": "^3.4.5",
+    "redis": "^4.7.0",
+    "reflect-metadata": "^0.2.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.15.0",
+    "@types/node": "^22.19.1",
+    "eslint": "^9.15.0",
+    "pino-pretty": "^13.0.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.15.0"
+  }
+}
